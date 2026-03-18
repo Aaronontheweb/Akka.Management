@@ -31,7 +31,7 @@ namespace Akka.Http.Dsl.Settings
             {
                 // Config may not be visible yet due to a race in Settings.RebuildConfig()
                 // where a concurrent InjectTopLevelFallback can overwrite Config with a stale value.
-                // Re-inject and retry. See https://github.com/akkadotnet/akka.net/issues/XXXX
+                // Re-inject and retry. See https://github.com/akkadotnet/akka.net/issues/8114
                 system.Settings.InjectTopLevelFallback(Http.DefaultConfig());
                 c = system.Settings.Config.GetConfig("akka.http.server");
             }
