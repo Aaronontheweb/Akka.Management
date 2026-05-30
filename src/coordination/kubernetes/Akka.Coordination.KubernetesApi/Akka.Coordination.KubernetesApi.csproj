@@ -12,6 +12,7 @@
         <PackageReference Include="Akka.Coordination" />
         <PackageReference Include="Akka.Hosting" />
         <PackageReference Include="Akka.Cluster.Hosting" />
+        <PackageReference Include="Google.Protobuf" VersionOverride="3.35.0" />
         <PackageReference Include="KubernetesClient" />
     </ItemGroup>
 

@@ -13,6 +13,7 @@
       <PackageReference Include="Akka.Hosting" />
       <PackageReference Include="AWSSDK.EC2" />
       <PackageReference Include="AWSSDK.ECS" />
+      <PackageReference Include="Google.Protobuf" VersionOverride="3.35.0" />
     </ItemGroup>
 
     <ItemGroup>

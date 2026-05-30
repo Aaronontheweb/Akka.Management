@@ -15,6 +15,7 @@
     <PackageReference Include="Akka.Cluster" />
     <PackageReference Include="Akka.Discovery" />
     <PackageReference Include="Akka.Hosting" />
+    <PackageReference Include="Google.Protobuf" VersionOverride="3.35.0" />
   </ItemGroup>
 
   <ItemGroup>

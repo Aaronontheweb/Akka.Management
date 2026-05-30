@@ -31,7 +31,7 @@
     <KubernetesClientVersionNet>19.0.2</KubernetesClientVersionNet>
     <MicrosoftExtensionsVersion>8.0.0</MicrosoftExtensionsVersion>
     <AzureIdentityVersion>1.14.2</AzureIdentityVersion>
-    <ProtobufVersion>3.34.0</ProtobufVersion>
+    <ProtobufVersion>3.35.0</ProtobufVersion>
     <GrpcToolsVersion>2.71.0</GrpcToolsVersion>
   </PropertyGroup>
   <!-- SourceLink support for all Akka.NET projects -->
