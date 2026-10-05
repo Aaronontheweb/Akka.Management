@@ -12,7 +12,7 @@
     <KubernetesClientVersionNet>17.0.14</KubernetesClientVersionNet>
     <MicrosoftExtensionsVersion>9.0.0</MicrosoftExtensionsVersion>
     <AzureIdentityVersion>1.14.2</AzureIdentityVersion>
-    <ProtobufVersion>3.30.2</ProtobufVersion>
+    <ProtobufVersion>3.35.0</ProtobufVersion>
     <GrpcToolsVersion>2.71.0</GrpcToolsVersion>
     <AspireVersion>13.3.5</AspireVersion>
   </PropertyGroup>
